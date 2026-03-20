@@ -12,6 +12,8 @@ export default function App() {
         <Text style={styles.row}>Walk the dog</Text>
         <Text style={styles.row}>Complete the quiz</Text>
       </View>
+
+      <Text style={styles.newToDo}>Add New To-Do</Text>
     </View>
   );
 }
@@ -46,5 +48,19 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1,
     borderBottomColor: "#eee",
     color: "#444",
+  },
+  newToDo: {
+    fontsize: 24,
+    fontWeight: "bold",
+    color: "#ffffff",
+    backgroundColor: "#1c95e6",
+    margin: 20,
+    padding: 10,
+    borderRadius: 10,
+    textAlign: "center",
+    position: "absolute",
+    bottom: 20,
+    left: 0,
+    right: 0,
   },
 });
